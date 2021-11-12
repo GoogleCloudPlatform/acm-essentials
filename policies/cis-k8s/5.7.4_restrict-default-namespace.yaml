@@ -7,7 +7,7 @@ metadata: # kpt-merge: /restrict-default-namespace
     description: "Restricts resources from using the `default` namespace."
     bundles.validator.forsetisecurity.org/cis-k8s-v1.5.1: 5.7.4
 spec:
-  enforcementAction: dryrun # kpt-set: ${enforcementAction}
+  enforcementAction: deny # kpt-set: ${enforcementAction}
   parameters:
     restrictedNamespaces:
     - default

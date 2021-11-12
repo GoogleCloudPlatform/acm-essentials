@@ -7,7 +7,7 @@ metadata: # kpt-merge: /restrict-clusteradmin-rolebindings
     description: "Restricts use of the cluster-admin role."
     bundles.validator.forsetisecurity.org/cis-k8s-v1.5.1: 5.1.1
 spec:
-  enforcementAction: dryrun # kpt-set: ${enforcementAction}
+  enforcementAction: deny # kpt-set: ${enforcementAction}
   parameters:
     restrictedRole:
       apiGroup: "rbac.authorization.k8s.io"
