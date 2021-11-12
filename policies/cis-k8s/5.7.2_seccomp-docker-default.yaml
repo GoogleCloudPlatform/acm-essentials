@@ -1,0 +1,17 @@
+apiVersion: constraints.gatekeeper.sh/v1beta1
+kind: K8sPSPSeccomp
+metadata: # kpt-merge: /psp-seccomp-docker-default
+  name: psp-seccomp-docker-default
+  annotations:
+    # This constraint is not certified by CIS.
+    description: "Requires that Pods have seccomp profile set to `docker/default`."
+    bundles.validator.forsetisecurity.org/cis-k8s-v1.5.1: 5.7.2
+spec:
+  enforcementAction: dryrun # kpt-set: ${enforcementAction}
+  match:
+    kinds:
+    - apiGroups: [""]
+      kinds: ["Pod"]
+  parameters:
+    allowedProfiles:
+    - docker/default
