@@ -15,7 +15,7 @@ upstreamLock:
     repo: git@github.com:GoogleCloudPlatform/acm-policy-controller-library
     directory: /bundles/cis-k8s-1.5.1
     ref: master
-    commit: 8c47b53286850e152a0c68368ce98a1e2b130e0c
+    commit: 7c33ca0dbf71364b6e5faef1958bd996942defdc
 info:
   description: CIS Benchmark Kubernetes v1.5.1
 pipeline:
