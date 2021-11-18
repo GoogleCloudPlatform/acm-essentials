@@ -5,14 +5,14 @@ metadata:
 upstream:
   type: git
   git:
-    repo: git@github.com:GoogleCloudPlatform/acm-policy-controller-library
+    repo: https://github.com/GoogleCloudPlatform/acm-policy-controller-library
     directory: /bundles/cis-k8s-1.5.1
     ref: master
   updateStrategy: resource-merge
 upstreamLock:
   type: git
   git:
-    repo: git@github.com:GoogleCloudPlatform/acm-policy-controller-library
+    repo: https://github.com/GoogleCloudPlatform/acm-policy-controller-library
     directory: /bundles/cis-k8s-1.5.1
     ref: master
     commit: 7c33ca0dbf71364b6e5faef1958bd996942defdc
