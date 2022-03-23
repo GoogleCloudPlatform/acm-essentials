@@ -6,16 +6,16 @@ upstream:
   type: git
   git:
     repo: https://github.com/GoogleCloudPlatform/acm-policy-controller-library
-    directory: /bundles/cis-k8s-1.5.1
+    directory: /bundles/cis-k8s-v1.5.1
     ref: master
   updateStrategy: resource-merge
 upstreamLock:
   type: git
   git:
     repo: https://github.com/GoogleCloudPlatform/acm-policy-controller-library
-    directory: /bundles/cis-k8s-1.5.1
+    directory: /bundles/cis-k8s-v1.5.1
     ref: master
-    commit: c046367dd40a8558229e27fad9cb1f7390b2e92a
+    commit: e06c0ac0c924925afd5d78da33f83aa7d3792965
 info:
   description: CIS Benchmark Kubernetes v1.5.1
 pipeline:
