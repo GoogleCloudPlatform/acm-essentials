@@ -7,6 +7,10 @@ You can configure [Config Sync](https://cloud.google.com/anthos-config-managemen
 
 - [CIS Constraints](https://github.com/GoogleCloudPlatform/acm-policy-controller-library/tree/master/bundles/cis-k8s-v1.5.1) for Policy Controller
 
+- [ASM Security
+  Constraints](https://github.com/GoogleCloudPlatform/acm-policy-controller-library/tree/master/bundles/asm-policy-v0.0.1)
+  for Policy Controller
+
 For exploring ACM in more depth, numerous [other samples](https://github.com/GoogleCloudPlatform/anthos-config-management-samples) are available.
 
 ## Requirements
