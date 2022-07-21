@@ -18,7 +18,7 @@ metadata: # kpt-merge: /psp-privileged-container
   name: psp-privileged-container
   annotations:
     # This constraint is not certified by CIS.
-    description: "Restricts containers with `securityContext.privileged` set to `true`."
+    description: "Restricts containers with `securityContext.privileged` set to `false`."
     bundles.validator.forsetisecurity.org/cis-k8s-v1.5.1: 5.2.1
 spec:
   enforcementAction: dryrun

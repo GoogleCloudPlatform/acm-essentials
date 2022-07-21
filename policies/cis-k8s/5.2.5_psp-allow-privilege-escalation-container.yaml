@@ -18,7 +18,7 @@ metadata: # kpt-merge: /psp-allow-privilege-escalation-container
   name: psp-allow-privilege-escalation-container
   annotations:
     # This constraint is not certified by CIS.
-    description: "Restricts containers with `allowPrivilegeEscalation` set to `true`."
+    description: "Restricts containers with `allowPrivilegeEscalation` set to `false`."
     bundles.validator.forsetisecurity.org/cis-k8s-v1.5.1: 5.2.5
 spec:
   enforcementAction: dryrun
