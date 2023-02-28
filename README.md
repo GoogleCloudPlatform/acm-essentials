@@ -1,15 +1,13 @@
-# Anthos Config Management Essentials
+![status: inactive](https://img.shields.io/badge/status-inactive-red.svg)
 
-This repository contains a recommended baseline configuration
-for using [Anthos Config Management](https://cloud.google.com/anthos/config-management) (ACM).
+This repo is no longer actively developed or maintained.
 
-You can configure [Config Sync](https://cloud.google.com/anthos-config-management/docs/config-sync-overview) with this repo to get:
+## Anthos Config Management's Policy Controller
 
-- [CIS Constraints](https://github.com/GoogleCloudPlatform/acm-policy-controller-library/tree/master/bundles/cis-k8s-v1.5.1) for Policy Controller
+Please check out [Anthos Config Management – Policy Controller Library](https://github.com/GoogleCloudPlatform/acm-policy-controller-library) which contains the current version of [CIS Kubernetes Benchmark v1.5.1](https://github.com/GoogleCloudPlatform/acm-policy-controller-library/tree/main/bundles/cis-k8s-v1.5.1) and other [Policy Bundles](https://github.com/GoogleCloudPlatform/acm-policy-controller-library#policy-bundles) for use with Anthos Config Management's [Policy Controller](https://cloud.google.com/anthos-config-management/docs/concepts/policy-controller).  
 
-For exploring ACM in more depth, numerous [other samples](https://github.com/GoogleCloudPlatform/anthos-config-management-samples) are available.
+For more information see [Policy Controller bundles](https://cloud.google.com/anthos-config-management/docs/concepts/policy-controller-bundles) which includes documentation on using the [CIS Kubernetes Benchmark v1.5.1](https://cloud.google.com/anthos-config-management/docs/how-to/using-cis-k8s-benchmark) and other [Policy Bundles](https://github.com/GoogleCloudPlatform/acm-policy-controller-library#policy-bundles) with [Config Sync](https://cloud.google.com/anthos-config-management/docs/config-sync-overview).
 
-## Requirements
+## Anthos Config Management's Config Sync
 
-This repository requires [Policy Controller](https://cloud.google.com/anthos-config-management/docs/how-to/installing-policy-controller) to be installed on your cluster,
-with [referential constraints](https://cloud.google.com/anthos-config-management/docs/how-to/creating-constraints#referential) and the [constraint template library](https://cloud.google.com/anthos-config-management/docs/reference/constraint-template-library) enabled.
+Please check out [Anthos Config Management Samples](https://github.com/GoogleCloudPlatform/anthos-config-management-samples) for numerous samples using [Anthos Config Management](https://cloud.google.com/anthos/config-management) and [Config Sync](https://cloud.google.com/anthos-config-management/docs/config-sync-overview).
